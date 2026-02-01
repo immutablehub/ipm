@@ -1,0 +1,22 @@
+{
+  "name": "ipm_x",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ipm": "./index.js"
+  },
+  "author": "immutablehub",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^5.47.0",
+    "mongodb": "^7.0.0",
+    "pinata": "^2.5.3",
+    "tar": "^7.5.4",
+    "yargs": "^18.0.0"
+  }
+}
